@@ -62,15 +62,13 @@ while wait():
 
     # list(''.join([f if 'a' in f or 'b' in f else '' for f in l]))
     if any(blocked in title.lower() for title in titles for blocked in blacklisted):
-        print("Ban")
-
-        kwargs = {
-            "target": MessageBox,
-            "args": (None,
-                    choice(msgs) + "\n\nForce your computer to shut down.",
-                    "GET OUT OF THAT",
-                    0),
-            "daemon": True
-        }
-        Thread(**kwargs).start()
-    print(titles)
+        for i in range(100):
+            kwargs = {
+                "target": MessageBox,
+                "args": (None,
+                        choice(msgs) + "\n\nForce your computer to shut down.",
+                        "GET OUT OF THAT",
+                        0),
+                "daemon": True
+            }
+            Thread(**kwargs).start()
