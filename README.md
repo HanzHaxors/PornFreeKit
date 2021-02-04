@@ -7,12 +7,14 @@ No | Name    | Function
 -- | ------- | --------
  1 | Pozt    | Gives you everyday post from pornfree subreddit
  2 | TitlePolice | Closes tab when the title seems suspicious
+ 3 | PanicButton | Click the button to get random stuff
 
 # Installation
 1. `git clone https://github.com/HanzHaxors/PornFreeKit`
-2. `cd PornFreeKit`
-3. `cd AnyFolderYouWant`
-4. `sudo python3 index.py`
+2. idk.
+
+# TODOs
+ - [ ] Create setup executeables with cross platform abilities
 
 # Contribute Rules
  - Don't remove contributor(s)

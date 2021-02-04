@@ -1,0 +1,10 @@
+E:\GitHub Repository\PornFreeKit\PanicButton\PanicButton\bin\Debug\PanicButton.exe.config
+E:\GitHub Repository\PornFreeKit\PanicButton\PanicButton\bin\Debug\PanicButton.exe
+E:\GitHub Repository\PornFreeKit\PanicButton\PanicButton\bin\Debug\PanicButton.pdb
+E:\GitHub Repository\PornFreeKit\PanicButton\PanicButton\obj\Debug\PanicButton.csprojAssemblyReference.cache
+E:\GitHub Repository\PornFreeKit\PanicButton\PanicButton\obj\Debug\PanicButton.MainForm.resources
+E:\GitHub Repository\PornFreeKit\PanicButton\PanicButton\obj\Debug\PanicButton.Properties.Resources.resources
+E:\GitHub Repository\PornFreeKit\PanicButton\PanicButton\obj\Debug\PanicButton.csproj.GenerateResource.cache
+E:\GitHub Repository\PornFreeKit\PanicButton\PanicButton\obj\Debug\PanicButton.csproj.CoreCompileInputs.cache
+E:\GitHub Repository\PornFreeKit\PanicButton\PanicButton\obj\Debug\PanicButton.exe
+E:\GitHub Repository\PornFreeKit\PanicButton\PanicButton\obj\Debug\PanicButton.pdb

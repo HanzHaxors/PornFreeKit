@@ -5,7 +5,7 @@ toaster = ToastNotifier()
 headers = {
     "User-Agent": "Windows:haxors.hanz.pornfree.pozt:v0.1.0 (by /u/HanzHaxors)"
 }
-posts = dict()
+posts = list()
 
 def alert(title, description, url, duration=5, threaded=True):
     arg = [title, description]
@@ -23,16 +23,19 @@ def wait(s=1):
 def open(url):
     webbrowser.open(url)
 
-try:
-    posts = get("https://api.reddit.com/r/pornfree/new?limit=10", headers=headers)
-    posts = posts.json()["data"]["children"]
-except Exception as e:
-    print(e)
-    exit()
+def fetch():
+    try:
+        posts_ = get("https://api.reddit.com/r/pornfree/new?limit=10", headers=headers)
+        posts.extend(posts_.json()["data"]["children"])
+    except Exception as e:
+        print(e)
+        exit()
 
+fetch()
 post = random.choice(posts)["data"]
 alert(post["title"], post["selftext"], post["url"])
 
 while wait(300):
+    fetch()
     post = random.choice(posts)["data"]
     alert(post["title"], post["selftext"], post["url"])
