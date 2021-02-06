@@ -5,5 +5,5 @@ bin/
 obj/
 build/
 dist/
-.egg-info
+*.egg-info
 
