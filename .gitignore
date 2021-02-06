@@ -3,4 +3,7 @@ __pycache__/
 .vs/
 bin/
 obj/
+build/
+dist/
+.egg-info
 
